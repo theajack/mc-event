@@ -1,0 +1,58 @@
+{
+    "name": "mc-event",
+    "ebuild": {
+        "libName": "MCEvent",
+        "fileName": "mc-event",
+        "publish": {
+            "name": "mc-event",
+            "version": "0.0.1",
+            "description": "",
+            "mc-eventsitory": {
+                "type": "git",
+                "url": "https://github.com/theajack/mc-event"
+            },
+            "keywords": [
+                ""
+            ],
+            "author": "theajack",
+            "license": "",
+            "bugs": {
+                "url": "https://github.com/theajack/mc-event/issues"
+            },
+            "homepage": "https://theajack.github.io/mc-event",
+            "publishConfig": {
+                "registry": "https://registry.npmjs.org/",
+                "tag": "latest"
+            }
+        }
+    },
+    "private": true,
+    "version": "0.0.1",
+    "scripts": {
+        "dev": "vite --host",
+        "lint": "eslint --fix",
+        "build": "vite build -m=sdk",
+        "build:app": "vite build -m=app",
+        "preview": "vite preview"
+    },
+    "devDependencies": {
+        "@babel/preset-env": "^7.21.4",
+        "@rollup/plugin-babel": "^6.0.4",
+        "@types/node": "^22.2.0",
+        "@typescript-eslint/eslint-plugin": "^5.4.0",
+        "@typescript-eslint/parser": "^5.4.0",
+        "@vitejs/plugin-legacy": "^4.0.2",
+        "dts-bundle-generator": "^9.5.1",
+        "eslint": "^8.2.0",
+        "terser": "^5.16.8",
+        "typescript": "^4.9.3",
+        "typescript-eslint": "0.0.1-alpha.0",
+        "up-fs": "^0.0.1",
+        "vite": "^4.2.0"
+    },
+    "dependencies": {
+        "eveit": "0.0.3"
+    },
+    "description": "Ebuild project",
+    "author": "author"
+}

@@ -3,14 +3,15 @@
  * @Date: 2024-12-05 15:30:15
  * @Description: Coding something
  */
-import {MCEveit} from '../src';
+import {MCEvent} from '../src';
+// import MCEvent from '../npm';
 
 import WorkerEntry from './worker?worker&inline';
 
 async function main () {
     console.log('main init');
 
-    const events = MCEveit.new();
+    const events = MCEvent.new();
 
     const worker = new WorkerEntry();
     events.into(worker);

@@ -6,8 +6,9 @@
 window.jsboxCode = {
     lib: 'https://cdn.jsdelivr.net/npm/mc-event',
     lang: 'javascript',
-    code: /* javascript */`MCEvent.on('hello', (v) => {
+    code: /* javascript */`const events = MCEvent.Events;
+events.on('hello', (v) => {
     console.log('Say ' + v);
 });
-MCEvent.emit('hello', 'Hi!');`
+events.emit('hello', 'Hi!');`
 };

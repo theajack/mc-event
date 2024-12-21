@@ -19,6 +19,15 @@ An event library that communicates using MessageChannel.
 npm i mc-event
 ```
 
+### 1.2 CDN usage
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/mc-event"></script>
+<script>
+     const {MCEvent, Events} = MCEvent;
+</script>
+```
+
 ## 2. MessageChannel EventBus
 
 Use MessageChannel for cross-worker communication
